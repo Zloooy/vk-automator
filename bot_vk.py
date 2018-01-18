@@ -1,5 +1,6 @@
 import vk
 from time import sleep
+gg vp
 session=vk.AuthSession(str(6061551),input("Login:"),input("Password:"),scope='messages, wall, friends')
 vkapi=vk.API(session,v="5.62")
 def forallitems(itemsfunc,func,offs,*itemargs,**itemkwargs):
